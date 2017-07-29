@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		822857FE1F2C09CA00C35B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822857FD1F2C09CA00C35B10 /* AppDelegate.swift */; };
-		822858001F2C09CA00C35B10 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 822857FF1F2C09CA00C35B10 /* GameScene.sks */; };
 		822858021F2C09CA00C35B10 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 822858011F2C09CA00C35B10 /* Actions.sks */; };
-		822858041F2C09CA00C35B10 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858031F2C09CA00C35B10 /* GameScene.swift */; };
-		822858061F2C09CA00C35B10 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858051F2C09CA00C35B10 /* GameViewController.swift */; };
-		822858091F2C09CA00C35B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822858071F2C09CA00C35B10 /* Main.storyboard */; };
-		8228580B1F2C09CA00C35B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8228580A1F2C09CA00C35B10 /* Assets.xcassets */; };
-		8228580E1F2C09CA00C35B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8228580C1F2C09CA00C35B10 /* LaunchScreen.storyboard */; };
 		822858191F2C09CA00C35B10 /* DoublePongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858181F2C09CA00C35B10 /* DoublePongTests.swift */; };
 		822858241F2C09CA00C35B10 /* DoublePongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858231F2C09CA00C35B10 /* DoublePongUITests.swift */; };
+		822858321F2C0A4700C35B10 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 822858311F2C0A4700C35B10 /* GameScene.sks */; };
+		822858341F2C0A5A00C35B10 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858331F2C0A5A00C35B10 /* GameScene.swift */; };
+		822858361F2C0A6900C35B10 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822858351F2C0A6900C35B10 /* GameViewController.swift */; };
+		8228583A1F2C0B0500C35B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822858391F2C0B0500C35B10 /* Main.storyboard */; };
+		8228583C1F2C0B3100C35B10 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228583B1F2C0B3100C35B10 /* MenuVC.swift */; };
+		8228583E1F2C0B4B00C35B10 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228583D1F2C0B4B00C35B10 /* GameOverScene.swift */; };
+		822858401F2C0B6100C35B10 /* Electro Sketch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8228583F1F2C0B6100C35B10 /* Electro Sketch.mp3 */; };
+		822858421F2C0B9800C35B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822858411F2C0B9800C35B10 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +41,7 @@
 /* Begin PBXFileReference section */
 		822857FA1F2C09CA00C35B10 /* DoublePong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublePong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		822857FD1F2C09CA00C35B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		822857FF1F2C09CA00C35B10 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		822858011F2C09CA00C35B10 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		822858031F2C09CA00C35B10 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		822858051F2C09CA00C35B10 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		822858081F2C09CA00C35B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8228580A1F2C09CA00C35B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8228580D1F2C09CA00C35B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8228580F1F2C09CA00C35B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		822858141F2C09CA00C35B10 /* DoublePongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublePongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822858181F2C09CA00C35B10 /* DoublePongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePongTests.swift; sourceTree = "<group>"; };
@@ -53,6 +49,14 @@
 		8228581F1F2C09CA00C35B10 /* DoublePongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublePongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822858231F2C09CA00C35B10 /* DoublePongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePongUITests.swift; sourceTree = "<group>"; };
 		822858251F2C09CA00C35B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822858311F2C0A4700C35B10 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		822858331F2C0A5A00C35B10 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		822858351F2C0A6900C35B10 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		822858391F2C0B0500C35B10 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8228583B1F2C0B3100C35B10 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		8228583D1F2C0B4B00C35B10 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		8228583F1F2C0B6100C35B10 /* Electro Sketch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Electro Sketch.mp3"; sourceTree = "<group>"; };
+		822858411F2C0B9800C35B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				822857FD1F2C09CA00C35B10 /* AppDelegate.swift */,
-				822857FF1F2C09CA00C35B10 /* GameScene.sks */,
+				822858311F2C0A4700C35B10 /* GameScene.sks */,
 				822858011F2C09CA00C35B10 /* Actions.sks */,
-				822858031F2C09CA00C35B10 /* GameScene.swift */,
-				822858051F2C09CA00C35B10 /* GameViewController.swift */,
-				822858071F2C09CA00C35B10 /* Main.storyboard */,
-				8228580A1F2C09CA00C35B10 /* Assets.xcassets */,
-				8228580C1F2C09CA00C35B10 /* LaunchScreen.storyboard */,
+				822858331F2C0A5A00C35B10 /* GameScene.swift */,
+				8228583D1F2C0B4B00C35B10 /* GameOverScene.swift */,
+				822858351F2C0A6900C35B10 /* GameViewController.swift */,
+				822858391F2C0B0500C35B10 /* Main.storyboard */,
+				8228583B1F2C0B3100C35B10 /* MenuVC.swift */,
+				822858411F2C0B9800C35B10 /* Assets.xcassets */,
 				8228580F1F2C09CA00C35B10 /* Info.plist */,
+				8228583F1F2C0B6100C35B10 /* Electro Sketch.mp3 */,
 			);
 			path = DoublePong;
 			sourceTree = "<group>";
@@ -244,11 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822858091F2C09CA00C35B10 /* Main.storyboard in Resources */,
-				822858001F2C09CA00C35B10 /* GameScene.sks in Resources */,
-				8228580B1F2C09CA00C35B10 /* Assets.xcassets in Resources */,
-				8228580E1F2C09CA00C35B10 /* LaunchScreen.storyboard in Resources */,
+				822858401F2C0B6100C35B10 /* Electro Sketch.mp3 in Resources */,
+				822858321F2C0A4700C35B10 /* GameScene.sks in Resources */,
+				8228583A1F2C0B0500C35B10 /* Main.storyboard in Resources */,
 				822858021F2C09CA00C35B10 /* Actions.sks in Resources */,
+				822858421F2C0B9800C35B10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822858041F2C09CA00C35B10 /* GameScene.swift in Sources */,
-				822858061F2C09CA00C35B10 /* GameViewController.swift in Sources */,
+				8228583E1F2C0B4B00C35B10 /* GameOverScene.swift in Sources */,
+				822858341F2C0A5A00C35B10 /* GameScene.swift in Sources */,
+				8228583C1F2C0B3100C35B10 /* MenuVC.swift in Sources */,
+				822858361F2C0A6900C35B10 /* GameViewController.swift in Sources */,
 				822857FE1F2C09CA00C35B10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +317,6 @@
 			targetProxy = 822858201F2C09CA00C35B10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		822858071F2C09CA00C35B10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				822858081F2C09CA00C35B10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8228580C1F2C09CA00C35B10 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8228580D1F2C09CA00C35B10 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		822858261F2C09CA00C35B10 /* Debug */ = {
@@ -528,6 +517,7 @@
 				8228582A1F2C09CA00C35B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8228582B1F2C09CA00C35B10 /* Build configuration list for PBXNativeTarget "DoublePongTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +526,7 @@
 				8228582D1F2C09CA00C35B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8228582E1F2C09CA00C35B10 /* Build configuration list for PBXNativeTarget "DoublePongUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +535,7 @@
 				822858301F2C09CA00C35B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
